@@ -67,5 +67,4 @@ foods_a = []
 for food in foods:
     if 'a' in food:
         foods_a.append(food)
-
 print(foods_a)
