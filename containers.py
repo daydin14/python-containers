@@ -34,3 +34,8 @@ print(
 
 # Exercise 5
 print('\n ### Exercise 5: \n')
+for key in home_town:
+    print(f"{key} = {home_town[key]}")
+
+# Exercise 6
+print('\n ### Exercise 6: \n')
