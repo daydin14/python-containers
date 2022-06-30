@@ -39,3 +39,16 @@ for key in home_town:
 
 # Exercise 6
 print('\n ### Exercise 6: \n')
+cohort = []
+# for student in students:
+#     cohort['student'] = {students[int(student)]}
+#     print(f'{cohort}')
+#     cohort.extend([{'student': student}])
+#     cohort.extend([student, 'test'])
+# print(f'{cohort[1]}')
+
+# Exercise 7
+print('\n ### Exercise 7: \n')
+
+# Exercise 8
+print('\n ### Excercise 8: \n')
