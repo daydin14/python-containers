@@ -52,8 +52,14 @@ for idx, student in enumerate(students):
     )
 print(cohort)
 
+
 # Exercise 7
 print('\n ### Exercise 7: \n')
+awesome_students = []
+for student in students:
+    awesome_students.append(student + ' is awesome!')
+print(awesome_students)
+
 
 # Exercise 8
 print('\n ### Excercise 8: \n')
