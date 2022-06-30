@@ -1,4 +1,7 @@
 # Exercise 1
+from pkg_resources import DefaultProvider
+
+
 students = ['David', 'Arnaud', 'Iyana', 'Davis',
             'Jquan', 'Matt', 'Danny', 'Irving', 'Eric']
 # ^ This is a list
@@ -40,12 +43,14 @@ for key in home_town:
 # Exercise 6
 print('\n ### Exercise 6: \n')
 cohort = []
-# for student in students:
-#     cohort['student'] = {students[int(student)]}
-#     print(f'{cohort}')
-#     cohort.extend([{'student': student}])
-#     cohort.extend([student, 'test'])
-# print(f'{cohort[1]}')
+for idx, student in enumerate(students):
+    cohort.append(
+        {
+            'Student': {student},
+            'fav_food': {foods[idx]}
+        }
+    )
+print(cohort)
 
 # Exercise 7
 print('\n ### Exercise 7: \n')
