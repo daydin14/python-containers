@@ -63,3 +63,9 @@ print(awesome_students)
 
 # Exercise 8
 print('\n ### Excercise 8: \n')
+foods_a = []
+for food in foods:
+    if 'a' in food:
+        foods_a.append(food)
+
+print(foods_a)
